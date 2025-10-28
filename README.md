@@ -17,6 +17,25 @@ FROM emptable
 WHERE language = 'Love'
 ;
 ```
+### Finance data description
+
+Column Name              Description
+
+Symbol:             The stock ticker symbol. In this case, it's always BAJAUTOFIN, referring to Bajaj Auto Finance.
+Series:             Market segment or category of the stock. For equities traded in India, EQ indicates "Equity" segment (regular shares).
+Date:              The trading date for that row. Format: DD-MMM-YYYY.
+Prev Close:        The closing price of the stock from the previous trading day. Used to assess price movement compared to the previous day.
+Open Price:         The price at which the first trade was executed on that trading day.
+High Price:         The maximum price the stock reached during that day’s trading session.
+Low Price:          The minimum price the stock touched during the day.
+Last Price:        The last recorded trade price before the market closed that day.
+Close Price:       The final or closing price of the stock, typically used in financial analysis. This is the price at the end of regular trading hours.
+Average Price:      The volume-weighted average price (VWAP) of all trades for that day. Calculated as:(Turnover/TotalTradedQuantity)(Turnover / Total Traded Quantity)(Turnover/TotalTradedQuantity)
+Turnover           The total value of shares traded during the day in Indian Rupees (₹). Calculated as: TotalTradedQuantity×AveragePriceTotal Traded Quantity × Average PriceTotalTradedQuantity×AveragePrice
+No. of Trades:       Number of separate transactions (buy-sell orders) executed that day. In this dataset, it's often shown as - meaning data not available or not reported.
+
+
+
 ## Heathcare data description
 1. ID: A unique identifier assigned to each individual or record.
 2. Name: The full name of the individual.
