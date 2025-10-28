@@ -21,8 +21,8 @@ WHERE language = 'Love'
 
 Column Name              Description
 
-Symbol:             The stock ticker symbol. In this case, it's always BAJAUTOFIN, referring to Bajaj Auto Finance.
-Series:             Market segment or category of the stock. For equities traded in India, EQ indicates "Equity" segment (regular shares).
+Symbol:  The stock ticker symbol. In this case, it's always BAJAUTOFIN, referring to Bajaj Auto Finance.
+Series:  Market segment or category of the stock. For equities traded in India, EQ indicates "Equity" segment (regular shares).
 Date:              The trading date for that row. Format: DD-MMM-YYYY.
 Prev Close:        The closing price of the stock from the previous trading day. Used to assess price movement compared to the previous day.
 Open Price:         The price at which the first trade was executed on that trading day.
